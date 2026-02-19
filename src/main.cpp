@@ -19,3 +19,15 @@ int value=0;
  *
  * @return void
  */
+void setup() {
+    Serial.begin(9600);
+    pinMode(A0, INPUT);
+}
+/**
+ * @brief Main loop: read FSR value and print status to Serial.
+ *
+ * Reads the analog value from the FSR sensor on `FSR_PIN`, prints the raw ADC
+ * value and a simple thresholded status message. Loop delays 500 ms between reads.
+ *
+ * @return void
+ */
