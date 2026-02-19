@@ -10,3 +10,12 @@
  * displays structured output via Serial Monitor.
  */
 
+int value=0;
+/**
+ * @brief Initialize Serial communication and any required peripherals.
+ *
+ * This function configures the Serial port at 9600 baud and prints
+ * an initialization banner to the Serial Monitor.
+ *
+ * @return void
+ */
