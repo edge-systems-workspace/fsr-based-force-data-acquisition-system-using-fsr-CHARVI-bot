@@ -31,3 +31,6 @@ void setup() {
  *
  * @return void
  */
+void loop(){
+    value=analogRead(A0);
+}
